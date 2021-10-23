@@ -1,0 +1,70 @@
+
+		
+<!-- Mirrored from Humevanforex.co.za/reviews/clients_reviews by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Oct 2021 13:07:23 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta charset="utf-8">
+		<title>Humevan Forex - Post News</title>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="reviews.css" rel="stylesheet" type="text/css">
+		  <meta name="description" content="Our company trades for people who are struggling to make profit in the forex market, do you want us to trade for you, then you are the right place, hire us now!">
+<link rel="shortcut icon" href="../favicon.png" >
+   <meta property="og:type" content="website">
+<meta property="og:url" content="https://Humevan gurru.co.za/">
+<meta property="og:title" content="Humevan  Gurru Trading (PTY) LTD">
+<meta property="og:description" content="Our company trades for people who are struggling to make profit in the forex market, do you want us to trade for you, then you are the right place, hire us now!">
+<meta property="og:image" content="../../Humevan gurru.co.za/dist/images/logo.jpg">
+<meta property="fb:app_id" content="229007695825204" />
+ <link rel="stylesheet" href="../../use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://Humevan gurru.co.za/">
+<meta property="twitter:title" content="Humevan  Gurru Trading (PTY) LTD">
+<meta property="twitter:description" content="Our company trades for people who are struggling to make profit in the forex market, do you want us to trade for you, then you are the right place, hire us now
+">
+<meta property="twitter:image" content="../../Humevan gurru.co.za/dist/images/logo.jpg">
+	</head>
+	<body>
+	    <div class="body">
+  
+	   
+	    	<div>
+	    		<h1><br></h1>
+	    	</div>
+
+		<div class="content home">
+			 <center><Br><a href="../index.html"><img src="../dist/images/mylogo.jpg" style="width:70%;" alt="PayFast"></a> <hr></center>
+			
+			<div class="reviews"></div>
+<script>
+const reviews_page_id = 1;
+fetch("reviewsc26c.html?page_id=" + reviews_page_id).then(response => response.text()).then(data => {
+	document.querySelector(".reviews").innerHTML = data;
+	document.querySelector(".reviews .write_review_btn").onclick = event => {
+		event.preventDefault();
+		document.querySelector(".reviews .write_review").style.display = 'block';
+		document.querySelector(".reviews .write_review input[name='name']").focus();
+	};
+	document.querySelector(".reviews .write_review form").onsubmit = event => {
+		event.preventDefault();
+		fetch("reviewsc26c.html?page_id=" + reviews_page_id, {
+			method: 'POST',
+			body: new FormData(document.querySelector(".reviews .write_review form"))
+		}).then(response => response.text()).then(data => {
+			document.querySelector(".reviews .write_review").innerHTML = data;
+		});
+	};
+});
+</script>
+			
+			
+		</div>
+	</body>
+
+<!-- Mirrored from Humevanforex.co.za/reviews/clients_reviews by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Oct 2021 13:07:25 GMT -->
+</html>
